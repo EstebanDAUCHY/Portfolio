@@ -50,17 +50,9 @@ ScrollReveal().reveal('.about-content p',{origin:'left'})
 
 /*=============== typed js ================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Etudiant en informatique', 'Développeur Frontend','Développeur Backend', 'Développeur en BDD',
-    'Développeur Fullstack', 'Développeur web', 'Développeur Android', 'Intégrateur',
-    'Développeur Python/Flask',"Développeur d'Applications", 'Volleyeur', 'Handballeur', 'Guitariste', 'Pianiste', 'Animateur'],
-    typeSpeed: 50,
-    backSpeed: 50,
-    backDelay: 1000,
-    loop: true
-});
-
-const profil = new Typed('.qualite', {
-    strings: ['Souriant','Amical','Chaleureux','Déterminé'],
+    strings: ['Estudiante de informática', 'Desarrollador frontend', 'Desarrollador backend', 'Desarrollador de bases de datos',
+    'Desarrollador Fullstack', 'Desarrollador Web', 'Desarrollador Android', 'Integrador', 'Desarrollador Python/Flask', 'Desarrollador de aplicaciones',
+    'Jugador de voleibol', 'Jugador de balonmano', 'Guitarrista', 'Pianista', 'Animador'],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,
