@@ -257,6 +257,10 @@ p {
     color: var(--main-color);
 }
 
+.competences-img img{
+    height: 5%;
+}
+
 .portfolio {
     background: var(--second-bg-color);
 }
@@ -391,9 +395,6 @@ p {
     gap: 6rem;
 }
 
-.competences-img img{
-    height: 5%;
-}
 /* BREAKPOINTS */
 @media (max-width: 1200px) {
     html {

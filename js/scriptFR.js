@@ -58,11 +58,3 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
-
-const profil = new Typed('.qualite', {
-    strings: ['Souriant','Amical','Chaleureux','Déterminé'],
-    typeSpeed: 50,
-    backSpeed: 50,
-    backDelay: 1000,
-    loop: true
-});

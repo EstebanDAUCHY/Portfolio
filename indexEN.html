@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -27,8 +27,8 @@
             <a href="#about">About me</a>
             <a href="#competences">Skills</a>
             <a href="#portfolio">Projects</a>
-            <a href="index.html"><img src="https://flagcdn.com/w320/fr.png" srcset="https://flagcdn.com/w640/fr.png 2x" alt="France"></a>
-            <a href="indexES.html"><img src="https://flagcdn.com/w320/es.png" srcset="https://flagcdn.com/w640/es.png 2x" alt="Espagne"></a>    
+            <a href="index.html"><img src="images/francais.png" alt="francais" id="flag"></a>
+            <a href="indexES.html"><img src="images/espagnol.png" alt="espagnol" id="flag"></a>    
         </nav>
     </header>
 
@@ -36,19 +36,19 @@
     <section class="home" id="home">
         <div class="home-content">
             <h3>Welcome to my Portfolio</h3>
-            <h1>I'm Esteban DAUCHY</h1>
-            <h3>and I am <span class="multiple-text"></span></h3>
-            <p>I'm a student in my second year of computer science with a major in application development,
-                and I'm proud to share my Portfolio with you! </p>
-                <p>As part of my studies, I'd like to introduce myself and my FrontEnd development skills.</p>
+            <h1>I am Esteban DAUCHY</h1>
+            <h3>and I'm <span class="multiple-text"></span></h3>
+            <p>I'm a student in my second year of computer science with a major in application development, and I'm proud to share my Portfolio with you! </p>
+                <p>As part of my studies, I'm presenting my FrontEnd development skills.</p>
+                <h3>Contact me :</h3>
             <div class="social-media">
-                <a href="https://www.instagram.com/die._a_.king/"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://www.linkedin.com/in/esteban-dauchy/"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/EDauchy"><i class='bx bxl-github' ></i></a>
-                <a href="https://gitlab.univ-artois.fr/esteban_dauchy"><i class='bx bxl-gitlab' ></i></a>
-                <a href="mailto:estebandauchy@gmail.com"><i class='bx bx-envelope' ></i></a>
+                <a href="https://www.instagram.com/die._a_.king/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/esteban-dauchy/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/EDauchy" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://gitlab.univ-artois.fr/esteban_dauchy" target="_blank"><i class='bx bxl-gitlab' ></i></a>
+                <a href="mailto:estebandauchy@gmail.com" target="_blank"><i class='bx bx-envelope' ></i></a>
             </div>
-            <a href="CV/cven.pdf" class="btn" >Access to my CV</a>
+            <a href="CV/CV_EN_Esteban_Dauchy.pdf" class="btn" target="_blank">Access to my CV<i class='bx bx-arrow-to-bottom'></i></a>
         </div>
         <div class="home-img">
             <img src="images/Snapchat-568263359-removebg-preview.png" alt="">
@@ -65,15 +65,11 @@
             <h2 class="heading">About <span>Me</span></h2>
             <h3>IT Student</h3>
             <p>
-            I'm currently in my second year of a Computer Science degree with a specialisation in application development at the University of Lens (62300). 
-            My desire to go into computer science began in first year at the André Malraux high school in Béthune (France, 62400) when I chose the 
-            Computer Sciences option in addition to the Engineering Sciences and Mathematics options in a general Bac with the Euro English option.
-            During this course, I later decided to stop my Mathematics option and concentrate on computer science and engineering.
-        </p>
+                I'm currently in my second year of a Computer Science degree at the University of Lens (France, 62300), where I'm studying application development. My interest in computer science began in second year at the André Malraux high school in Béthune (France, 62400) when I chose the Numerical and Computer Science option in addition to the Engineering Science and Mathematics options in a General Bac with the Euro English option. During this course, I later decided to stop taking the Mathematics option and concentrate on computer science and engineering.</p>
             <p>
-                After that, I <i class='bx bx-dots-horizontal-rounded'></i>
+                Thereafter, I <i class='bx bx-dots-horizontal-rounded'></i>
             </p>
-            <a href="profil.html" class="btn">Find out more</a>
+            <a href="profilEN.html" class="btn" target="_blank">See more</a>
         </div>
     </section>
 
@@ -82,7 +78,7 @@
         <h2 class="heading">My <span>Skills</span></h2>
         <div class="competences-container">
             <div class="competences-box">
-                <h3>Web skills</h3>
+                <h3>Web development skills</h3>
                 <i class='bx bx-code-alt'></i>
                 <div class="compet">
                     <div class="competences-img">
@@ -139,11 +135,15 @@
                         <i class='bx bxs-terminal'></i>
                         <p>Shell</p>
                     </div>
+                    <div class="competences-img">
+                        <i class='bx bxl-postgresql' ></i>
+                        <p>PostgreSQL</p>
+                    </div>
                 </div>
             </div>
             <div class="competences-box">
-                <h3>Usages of tools</h3>
-                <i class='bx bx-code-curly'></i>
+                <h3>Software skills</h3>
+                <i class='bx bx-window-alt'></i>
                 <div class="compet">
                     <div class="competences-img">
                         <i class='bx bxl-gitlab'></i>
@@ -158,20 +158,12 @@
                         <p>VS Code</p>
                     </div>
                     <div class="competences-img">
-                        <i class='bx bxl-c-plus-plus'></i>
-                        <p>C++</p>
+                        <i class='bx bxl-docker' ></i>
+                        <p>Docker</p>
                     </div>
                     <div class="competences-img">
-                        <i class='bx bxl-c-plus-plus'></i>
-                        <p>C++</p>
-                    </div>
-                    <div class="competences-img">
-                        <i class='bx bxl-c-plus-plus'></i>
-                        <p>C++</p>
-                    </div>
-                    <div class="competences-img">
-                        <i class='bx bxl-c-plus-plus'></i>
-                        <p>C++</p>
+                        <i class='bx bxs-component' ></i>
+                        <p>JetBrains</p>
                     </div>
                 </div>
             </div>
@@ -181,71 +173,91 @@
 
     <!-- portfolio section design -->
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
+        <h2 class="heading">My <span>Projects</span></h2>
 
         <div class="portfolio-container">
             <div class="portfolio-box">
                 <img src="images/Tyradex.png" alt="">
                 <div class="portfolio-layer">
                     <h4>Poke WG2D</h4>
-                    <p>A pokedex created in Flask.py using the Tyradex API<p>
-                    <a href="projets/pokemon/pokemon.html" id="proj"><i class='bx bx-link-external'></i></a>
+                    <p>A pokédex created in Flask.py using the Tyradex API<p>
+                    <a href="projets/pokemon/pokemon.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/logo hasard.png" alt="">
+                <img src="images/logo pantheon.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, expedita.</p>
-                    <a href="#" id=""><i class='bx bx-link-external'></i></a>
+                    <h4>Web marathon 23</h4>
+                    <p>Production of a complete website in PHP/Laravel for a period of 48 hours</p>
+                    <a href="projets/marathon web 23/marathon.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/logo hasard.png" alt="">
+                <img src="images/flatcraft-removebg-preview.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, expedita.</p>
-                    <a href="#" id=""><i class='bx bx-link-external'></i></a>
+                    <h4>Flatcraft</h4>
+                    <p>Creation of a 2D java game in the style of Minecraft</p>
+                    <a href="projets/flatcraft/flatcraft.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/logo hasard.png" alt="">
+                <img src="images/JO.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, expedita.</p>
-                    <a href="#" id=""><i class='bx bx-link-external'></i></a>
+                    <h4>Website JO 2K24</h4>
+                    <p>Creation of a website about the Paris 2024 Olympic Games</p>
+                    <a href="projets/JO2k24/jo.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/logo hasard.png" alt="">
+                <img src="images/spheres-texture (1).png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, expedita.</p>
-                    <a href="#" id=""><i class='bx bx-link-external'></i></a>
+                    <h4>Ray Tracing App</h4>
+                    <p>Raytracing application (3D rendering) for 2D objects in Java</p>
+                    <a href="projets/ray tracing/raytracing.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/logo hasard.png" alt="">
+                <img src="images/julia.png" alt="">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, expedita.</p>
-                    <a href="#" id=""><i class='bx bx-link-external'></i></a>
+                    <h4>Application for creating fractals</h4>
+                    <p>Application created in Java to generate different mathematical fractals</p>
+                    <a href="projets/fractales/fractale.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/wrttn.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather application</h4>
+                    <p>Creating a weather application with Flask.py using the wttr.in API</p>
+                    <a href="projets/weather/wttr.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/le-guide-complet-des-jeux-removebg-preview.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Games guide website</h4>
+                    <p>In the process of creating a website to bring together all the existing games</p>
+                    <a href="projets/guideJeux/guide.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/movie-removebg-preview.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mov'it</h4>
+                    <p>Currently creating a film website using the TMBD API</p>
+                    <a href="projets/mov'it/movit.html" id="" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- footer design -->
-    <footer class="footer">
-        <div class="footer-iconTop">
-            <a href="#home"></a>
-        </div>
-    </footer>
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
